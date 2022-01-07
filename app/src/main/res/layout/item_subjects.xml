@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="subject"
+            type="farees.hussain.bunkmanager.db.model.Subject" />
+        <variable
+            name="itemclickListner"
+            type="farees.hussain.bunkmanager.adapter.SubjectItemClickListner" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        style="@style/ShapeAppearance.App.MediumComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        app:cardPreventCornerOverlap="false"
+        android:onClick="@{() -> itemclickListner.itemClick(subject)}"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- Title, secondary and supporting text -->
+            <!-- Buttons -->
+            <TextView
+                android:id="@+id/tvSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Subject"
+                subjectName="@{subject}"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Status"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvCurrentAttendance"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvCurrentAttendance"
+                app:layout_constraintTop_toBottomOf="@+id/tvCurrentAttendance" />
+
+            <TextView
+                android:id="@+id/tvCurrentAttendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Current Attendance : 0/0"
+                currentAttendance="@{subject}"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSubject" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buAttend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Attend"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/buNoClass"
+                app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buBunk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bunk"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/buNoClass"
+                app:layout_constraintEnd_toStartOf="@+id/buNoClass"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/buNoClass"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buNoClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Class Today"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/buAttend"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/buAttend"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/tvPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                subjectPercentageAttendance="@{subject}"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/tvSubject"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tvSubject"
+                app:layout_constraintVertical_bias="0.562"
+                tools:text="75%" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>

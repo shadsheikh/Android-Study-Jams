@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Attendance Manager</string>
+    <string name="attendance_edit_warning">&#x26A0; This will cause deletion of calender dates of this subject,\nWe recommend you to change the Attendance for any particular date</string>
+</resources>

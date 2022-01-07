@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editSubject"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="always"
+        android:title="Edit Subject" />
+
+    <item
+        android:id="@+id/deleteSubject"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="always"
+        android:title="Edit Subject" />
+
+
+
+</menu>

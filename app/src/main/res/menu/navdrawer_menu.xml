@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/classesToAttend"
+        android:title="34"
+        />
+
+    <item
+        android:id="@+id/timetableFragment"
+        android:title="Time Table"
+        android:icon="@drawable/ic_timetable"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Change Settings"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>

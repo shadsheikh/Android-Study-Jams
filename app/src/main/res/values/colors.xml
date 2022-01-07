@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ecdc4</color>
+    <color name="toolbarBackground">#83c5be</color>
+    <color name="colorPrimaryDark">#006d77</color>
+    <color name="FragmentBackground">#edf6f9</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="cantBunk">#640000</color>
+    <color name="canBunk">#3F51B5</color>
+</resources>
