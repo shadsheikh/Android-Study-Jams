@@ -49,7 +49,7 @@ I made **Yourstore** on Android ( Kotlin ) and Firebase for backend and authenti
 The application is in active development, some more features are needed to be added.  
 Thanx, Google Developer students club, BIT Mesra for the workshops. 
 
-**APK :**   [Try app](https://github.com/mayukhpankaj/Android-Study-Jams/tree/main/APK)
+**APK :**   [Try app](https://github.com/Shad-Sheikh/Attendance-Managment/blob/main/APK/Attendance%20Managment.apk)
 
 **Demo:**
 
