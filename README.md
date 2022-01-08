@@ -2,7 +2,7 @@
 
 **Attendance Management**
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=shadsheikh.attendancemanagment&left_color=green&right_color=red)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=shadsheikh.attendancemanagment)
 ![vistors](https://visitor-badge.glitch.me/badge?page_id=yourstore) 
 
 **Problem Statement:**
