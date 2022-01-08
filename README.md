@@ -27,8 +27,6 @@ accurate results from the student’s attendance. The system provides with the b
 
 **Functionality & Concepts used :**
 
-**Techstack**
-
 I made **Attendance Management** on Android ( Kotlin ) and Firebase for backend and authentication Firestore for database, storing attendance & bunks of student.
 
  - **Navigation :** Users can navigate across activities and fragments.
