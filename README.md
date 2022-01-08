@@ -53,9 +53,9 @@ Thanx, Google Developer students club, BIT Mesra for the workshops.
 
 **Demo:**
 
-https://user-images.githubusercontent.com/66586570/148635883-e89b7834-8405-45fe-b4bd-584aa376c7da.mp4
+https://user-images.githubusercontent.com/66586570/148635935-30463050-8f66-4230-9597-ff3d76b6701f.mp4
 
-https://user-images.githubusercontent.com/40158577/148118428-4040a037-0371-4272-92f8-7f68c344e45a.mp4
+
 
 
 
