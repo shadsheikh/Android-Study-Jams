@@ -1,8 +1,8 @@
 # Android-Study-Jams
 
-**YourStore**   ,  *Vocal for Local*
+**Attendance Management**
 
-
+![visitors](https://visitor-badge.glitch.me/badge?page_id=shadsheikh.attendancemanagment&left_color=green&right_color=red)
 ![vistors](https://visitor-badge.glitch.me/badge?page_id=yourstore) 
 
 **Problem Statement:**
@@ -60,6 +60,4 @@ https://user-images.githubusercontent.com/66586570/148635935-30463050-8f66-4230-
 Learning materials: 
 
 [developer.android.com](https://developer.android.com/courses/android-basics-kotlin/course)
-
-[udacity, Android basics](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 
